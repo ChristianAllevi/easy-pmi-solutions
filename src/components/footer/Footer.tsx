@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { logo_blue_n } from "../../../public/logos"
+import { logo_blue_n, logo_new_blue_v_n } from "../../../public/logos"
 
 function Footer() {
   return (
@@ -9,16 +9,16 @@ function Footer() {
           <div className="flex flex-col md:grid md:grid-cols-2">
             <Link href={"/"} className='my-10 z-50'>
               <Image
-                  src={logo_blue_n}
+                  src={logo_new_blue_v_n}
                   width={1920}
                   height={1080}
                   alt="Easy PMI Solutions logo"
-                  className="w-60"
+                  className="h-14 w-auto"
               />
             </Link>
             <div className='flex justify-between gap-6 items-center z-50 md:justify-start md:gap-20'>
                 <Link href="#servizi" className="text-white">Servizi</Link>
-                <Link href="mailto:marketing@easypmisolutions.it" target='blank' className='bg-white px-3 py-2 w-fit rounded-3xl'>
+                <Link href="mailto:info@easypmisolutions.it" target='blank' className='bg-white px-5 py-3 w-fit rounded-3xl'>
                     Richiedi una call gratuita
                 </Link>
             </div>

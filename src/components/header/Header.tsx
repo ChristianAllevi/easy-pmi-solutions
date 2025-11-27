@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { logo_blue_p } from '../../../public/logos'
+import { logo_new_blue_v } from '../../../public/logos'
 import BlueButton from '../ui/BlueButton'
 
 function Header() {
@@ -9,11 +9,11 @@ function Header() {
       <div className='container flex items-center justify-between w-full px-4'>
         <Link href={"/"} className='my-10 z-50'>
             <Image
-                src={logo_blue_p}
+                src={logo_new_blue_v}
                 width={1920}
                 height={1080}
                 alt="Easy PMI Solutions logo"
-                className='w-40 -mt-2'
+                className='w-auto -mt-2 h-14'
                 />
         </Link>
         <div className='flex gap-6 items-center z-50'>
