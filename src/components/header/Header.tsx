@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { logo_new_blue_v } from '../../../public/logos'
+import { logo_new_blue_h, logo_new_blue_v } from '../../../public/logos'
 import BlueButton from '../ui/BlueButton'
 
 function Header() {
@@ -13,8 +13,15 @@ function Header() {
                 width={1920}
                 height={1080}
                 alt="Easy PMI Solutions logo"
-                className='w-auto -mt-2 h-14'
-                />
+                className='w-auto -mt-2 h-14 md:hidden'
+            />
+            <Image
+                src={logo_new_blue_h}
+                width={1920}
+                height={1080}
+                alt="Easy PMI Solutions logo"
+                className='w-auto -mt-2 h-14 hidden md:flex'
+            />
         </Link>
         <div className='flex gap-6 items-center z-50'>
             <Link href="#servizi">Servizi</Link>
