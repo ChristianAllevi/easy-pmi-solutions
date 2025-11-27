@@ -18,7 +18,7 @@ function Footer() {
             </Link>
             <div className='flex justify-between gap-6 items-center z-50 md:justify-start md:gap-20'>
                 <Link href="#servizi" className="text-white">Servizi</Link>
-                <Link href="mailto:marketing@" target='blank' className='bg-white px-3 py-2 w-fit rounded-3xl'>
+                <Link href="mailto:marketing@easypmisolutions.it" target='blank' className='bg-white px-3 py-2 w-fit rounded-3xl'>
                     Richiedi una call gratuita
                 </Link>
             </div>
