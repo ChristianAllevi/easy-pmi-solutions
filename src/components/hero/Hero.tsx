@@ -16,7 +16,7 @@ function Hero() {
           />
           <div className='flex flex-col gap-8 md:order-1'>
             <h1 className='text-pmi-h1 leading-pmi-h tracking-tighter'>Soluzioni semplici per far crescere la tua impresa.</h1>
-            <p className='text-pmi-body mb-4'>Dai sistemi di pagamento alla telefonia, dall’energia ai servizi digitali: tutto ciò che ti serve, in un unico partner.</p>
+            <p className='text-pmi-body mb-4'>Dai sistemi di pagamento alla telefonia, dall’energia ai servizi digitali: <br /> tutto ciò che ti serve, in un unico partner.</p>
             <div>
               <BlueButton text='Contattaci' />
             </div>              
