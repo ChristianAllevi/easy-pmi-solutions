@@ -1,6 +1,6 @@
 import { plans } from "@/lib/const/ServicePlansText"
 import PlanCard from "./ui/PlanCard"
-import PlanTailorMade from "./ui/PlanTailorMade"
+import PlanMyPos from "./ui/PlanMyPos"
 
 function Plans() {
   return (
@@ -15,7 +15,7 @@ function Plans() {
             <PlanCard icon={plan?.icon} title={plan?.title} description={plan?.description} catchword={plan?.catchword} key={index} />
           ))}
         </div>
-        <PlanTailorMade />
+        <PlanMyPos />
       </div>
     </div>
   )

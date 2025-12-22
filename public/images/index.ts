@@ -4,5 +4,7 @@ import image_service_digital from './easy-pmi-solutions-services-digital-solutio
 import image_service_energy from './easy-pmi-solutions-services-energy-solutions.png'
 import image_service_phone from './easy-pmi-solutions-services-phone-solutions.png'
 import image_service_pos from './easy-pmi-solutions-services-pos.png'
+import image_mypos_logo from './easy-pmi-solutions-mypos-logo.png'
+import image_mypos from './easy-pmi-solutions-mypos.png'
 
-export { image_hero, image_plans, image_service_digital, image_service_energy, image_service_phone, image_service_pos }
+export { image_hero, image_plans, image_service_digital, image_service_energy, image_service_phone, image_service_pos, image_mypos, image_mypos_logo }
